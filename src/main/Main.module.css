@@ -6,10 +6,16 @@
 .text {
     width: 300px;
     background-color: #ccf8ff;
+    padding: 10px;
+    margin: 10px;
 }
 
 .photo {
     width: 300px;
     height: 400px;
+    margin: 10px;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/743/230/small/avatar-icon-to-use-as-face-icons-or-profile-pictures-on-social-networks-doodled-faces-icons-over-white-background-illustration-with-hand-drawn-style-vector.jpg');
+    background-size: cover;
+    background-position: center;
     background-color: #ccf8ff;
 }

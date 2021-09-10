@@ -1,11 +1,11 @@
 .rightsBlock {
-    width: 100%;
-    height: 150px;
     background-color: #0c96af;
-    display: flex;
+}
+
+.wrapper {
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    height: 150px;
+    margin: 10px auto;
 }
 
 .name {
@@ -14,6 +14,7 @@
     background-color: #ccf8ff;
     font-size: 20px;
     text-align: center;
+    margin: 10px auto;
 }
 
 .rights {
@@ -22,11 +23,12 @@
     background-color: #ccf8ff;
     font-size: 20px;
     text-align: center;
+    margin: 10px auto;
 }
 
 .someWrapper {
-    width: 300px;
-display: flex;
+    width: 280px;
+    display: flex;
     justify-content: space-between;
     background-color: #61dafb;
 }

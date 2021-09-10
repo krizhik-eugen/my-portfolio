@@ -3,8 +3,6 @@ import style from './Projects.module.css';
 import styleContainer from './../../src/common/Container.module.css';
 import {Project} from "./project/Project";
 
-const desc = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa, cumque dicta doloribus, ducimus eveniet hic inventore ipsam iste laboriosam magni maxime natus officia, praesentium quia rem sapiente similique vero!'
-
 export function Projects() {
     return (
         <div className={style.projectsBlock}>
