@@ -1,23 +1,31 @@
 .projectsBlock {
-    /*min-height: 100vh;*/
-    background-color: #39dfff;
+    /*height: 100vh;*/
 }
 
 .projectsContainer {
-    align-items: center;
     flex-direction: column;
     justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 40px;
 }
 
 .title {
     background-color: #05a9ca;
-    margin: 10px;
 }
 
 .projects {
-    border: 1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 965px) {
+    .projects {
+        justify-content: center;
+    }
 }

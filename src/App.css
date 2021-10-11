@@ -4,5 +4,10 @@
     padding: 0;
 }
 .App {
-
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.42857143;
+    background-color: #fff;
+    display: block;
 }
