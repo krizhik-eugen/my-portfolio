@@ -1,0 +1,24 @@
+.projectsBlock {
+  /*height: 100vh;*/
+  .projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .projects {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      @media screen and (max-width: 965px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
