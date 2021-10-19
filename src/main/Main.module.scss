@@ -1,0 +1,107 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+.mainBlock {
+  height: 100vh;
+  background-color: $bgSecondColor;
+  @media screen and (max-width: 1189px) {
+    height: auto;
+  }
+
+
+  .mainContainer {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .aboutWrapper {
+      width: 100%;
+      margin-bottom: auto;
+      margin-top: auto;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      @media screen and (max-width: 760px) {
+        justify-content: center;
+      }
+
+      .textWrapper {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        margin: auto 20px;
+
+        .subTitle {
+          display: block;
+          text-align: center;
+          font-weight: 700;
+          font-size: 36px;
+          margin: 20px 0 10px;
+        }
+
+        .description {
+          text-align: left;
+          font-size: 15px;
+          padding: 0 20px 10px 20px;
+          margin: 0 0 10px;
+          & h3 {
+            font-size: 24px;
+            margin: 20px 0;
+            text-align: center;
+          }
+          & p {
+            font-size: 16px;
+            color: $smallTextColor
+          }
+        }
+
+        .viewBtnWrapper {
+          text-align: center;
+          margin: 50px 0 30px 0;
+
+          .viewBtn {
+            font-size: 16px;
+            padding: 9px 18px;
+            color: $bgColor;
+            background-color: $primaryColor;
+            cursor: pointer;
+
+            &:hover {
+              box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+            }
+          }
+        }
+
+      }
+
+      .photoWrapper {
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        background: $bgColor;
+        margin: 10px 20px 40px;
+        box-shadow: 0 0 30px rgb(0 0 0 / 17%);
+
+
+
+        .photo {
+          display: block;
+          max-width: 340px;
+          width: 100%;
+          background-size: cover;
+          background-position: 0px -15px;
+          background-repeat: no-repeat;
+
+        }
+      }
+    }
+  }
+}
+
+
+
+
+

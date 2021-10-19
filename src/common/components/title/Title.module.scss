@@ -1,0 +1,30 @@
+@import '../../styles/sass/variables';
+@import '../../styles/sass/mixins';
+
+.heading {
+  padding: 30px 0;
+  text-align: center;
+  display: block;
+
+  .subTitle {
+    @include fontStyle (('Open Sans', sans-serif), 36px, 800);
+    margin-top: 0;
+    height: 39px;
+    margin-bottom: 15px;
+  }
+
+  hr {
+    height: 4px !important;
+    width: 70px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    background-color: $textColor;
+    border: 0;
+    border-top: 1px solid #eee;
+  }
+}
+
+
+
+

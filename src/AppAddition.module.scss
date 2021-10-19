@@ -1,0 +1,9 @@
+@import 'common/styles/sass/variables';
+@import 'common/styles/sass/mixins';
+.appAddition {
+    @include fontStyle(('Roboto', sans-serif), 14px, null);
+    color: $textColor;
+    line-height: 1.42857143;
+    background-color: $bgColor;
+    display: block;
+}

@@ -1,10 +1,12 @@
 .hireBlock {
-    background-color: #05a9ca;
+    background: url("../assets/images/tech.jpg") no-repeat;
+    background-size: cover;
 }
 
 .hireContainer {
     flex-direction: column;
     justify-content: center;
+    padding: 100px 0;
 }
 
 .title {

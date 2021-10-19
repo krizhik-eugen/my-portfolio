@@ -1,0 +1,39 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+.skill {
+  width: 280px;
+  height: 240px;
+  background-color: $bgColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 15px;
+  margin: 0 0 60px 0;
+  box-shadow: 0 0 30px rgb(0 0 0 / 17%);
+
+  .icon {
+    //display: block;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $bgSecondColor;
+  }
+}
+
+
+.title {
+  @include fontStyle(('Open Sans', sans-serif), 20px, 800);
+  text-align: center;
+  margin: 10px 0;
+}
+
+.description {
+  text-align: center;
+  font-size: 16px;
+  margin: 0 0 10px;
+  color: $smallTextColor;
+}

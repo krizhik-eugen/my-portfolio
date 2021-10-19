@@ -1,10 +1,10 @@
 @import '../common/styles/sass/variables';
 
-.projectsBlock {
-  /*height: 100vh;*/
-  background-color: $bgSecondColor;
+.skillsBlock {
+  /*min-height: 100vh;*/
+  background-color: $bgColor;
 
-  .projectsContainer {
+  .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
@@ -13,15 +13,20 @@
     margin-right: auto;
     margin-left: auto;
 
-    .projects {
+    .skills {
       width: 100%;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      @media screen and (max-width: 965px) {
+      @media screen and (max-width: 1054px) {
+        justify-content: space-between;
+      }
+      @media screen and (max-width: 717px) {
         justify-content: center;
       }
     }
   }
 }
+
+
 
