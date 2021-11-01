@@ -6,7 +6,6 @@
     background-size: cover;
     background-position: center center;
     position: relative;
-    z-index: -1;
     &::before {
         position: absolute;
         content: '';
@@ -16,14 +15,13 @@
         left: 0;
         right: 0;
         opacity: 0.4;
-        z-index: -1;
     }
-    //background-color: $bgColor;
     .hireContainer {
         display: flex;
         flex-direction: column;
         //justify-content: center;
         padding: 60px ;
+        z-index: 2;
 
         .title {
             display: block;
@@ -32,6 +30,7 @@
             font-size: 36px;
             margin: 20px 0 50px;
             color: $bgColor;
+            z-index: 2;
             @media screen and (max-width: 439px) {
                 font-size: 24px;
             }
@@ -40,6 +39,7 @@
         .hireBtnWrapper {
             text-align: right;
             margin-top: auto;
+            z-index: 2;
 
             .hireBtn {
                 font-size: 16px;

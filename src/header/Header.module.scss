@@ -1,6 +1,10 @@
 .headerBlock {
   height: 80px;
   background-color: #111 !important;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+
 
   .headerContainer {
     display: flex;
@@ -12,6 +16,10 @@
     @media screen and (max-width: 380px) {
       padding-right: 10px;
       padding-left: 10px;
+    }
+    @media screen and (max-width: 359px) {
+      padding-right: 5px;
+      padding-left: 5px;
     }
   }
 }

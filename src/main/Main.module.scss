@@ -2,6 +2,7 @@
 @import '../common/styles/sass/mixins';
 
 .mainBlock {
+  padding-top: 80px;
   height: 100vh;
   background-color: $bgSecondColor;
   @media screen and (max-width: 1189px) {
@@ -47,22 +48,24 @@
           font-size: 15px;
           padding: 0 20px 10px 20px;
           margin: 0 0 10px;
+
           & h3 {
             font-size: 24px;
             margin: 20px 0;
             text-align: center;
           }
+
           & p {
             font-size: 16px;
             color: $smallTextColor
           }
         }
 
-        .viewBtnWrapper {
+        .downloadBtnWrapper {
           text-align: center;
-          margin: 50px 0 30px 0;
+          margin: 50px 0 60px 0;
 
-          .viewBtn {
+          .downloadBtn {
             font-size: 16px;
             padding: 9px 18px;
             color: $bgColor;
@@ -84,7 +87,6 @@
         background: $bgColor;
         margin: 10px 20px 40px;
         box-shadow: 0 0 30px rgb(0 0 0 / 17%);
-
 
 
         .photo {

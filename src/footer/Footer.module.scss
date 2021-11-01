@@ -1,0 +1,42 @@
+@import '../common/styles/sass/variables';
+
+.footerBlock {
+  height: 166px;
+  background-color: #111 !important;
+
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .socialIcons {
+      display: flex;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+        text-decoration: none;
+        cursor: pointer;
+        margin: 0 20px;
+
+        &:hover path {
+          fill: $primaryColor;
+        }
+
+        path {
+          fill: $bgSecondColor;
+        }
+      }
+    }
+
+    .copyright {
+      font-size: 15px;
+      margin: 10px auto;
+      color: $bgColor;
+    }
+  }
+
+}
+

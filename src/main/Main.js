@@ -14,21 +14,21 @@ export function Main() {
                         <img src={myPhoto} className={style.photo}/>
                     </div>
                     <div className={style.textWrapper}>
-                            <div className={style.subTitle}>EVGENIY KRIZHIK</div>
-                            <div className={style.description}>
-                                <h3>Frontend Developer</h3>
-                                <p>Hi There! I am Junior Frontend Developer.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam, delectus doloribus
-                                    eos impedit laboriosam maxime molestias neque nesciunt quae sint temporibus tenetur unde
-                                    vel voluptas voluptate voluptates voluptatibus voluptatum?</p>
-                            </div>
-                        <div className={style.viewBtnWrapper}>
-                            <a className={style.viewBtn}>Download resume</a>
+                        <div className={style.subTitle}>YAUHENI KRYZHYK</div>
+                        <div className={style.description}>
+                            <h3>Frontend Developer</h3>
+                            <p>Hi There! I am Junior Frontend Developer.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam, delectus doloribus
+                                eos impedit laboriosam maxime molestias neque nesciunt quae sint temporibus tenetur unde
+                                vel voluptas voluptate voluptates voluptatibus voluptatum?</p>
                         </div>
-                    </div>
+                        <div className={style.downloadBtnWrapper}>
+                            <a className={style.downloadBtn}>Download resume</a>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
     );
 }
 

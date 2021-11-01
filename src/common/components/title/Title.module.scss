@@ -7,7 +7,7 @@
   display: block;
 
   .subTitle {
-    @include fontStyle (('Open Sans', sans-serif), 36px, 800);
+    @include fontStyle(('Open Sans', sans-serif), 36px, 800);
     margin-top: 0;
     height: 39px;
     margin-bottom: 15px;
