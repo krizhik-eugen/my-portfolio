@@ -3,7 +3,7 @@ import style from './Projects.module.scss';
 import styleContainer from '../common/styles/Container.module.css';
 import {Project} from "./project/Project";
 import {Title} from '../common/components/title/Title';
-import socNetImg from '../assets/images/socnet8.jpg'
+import socNetImg from '../assets/images/socnet.jpg'
 import toDoImg from '../assets/images/todo6.jpg'
 
 const toDoProjectStyle = {
