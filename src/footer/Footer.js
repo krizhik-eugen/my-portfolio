@@ -6,6 +6,7 @@ import {faFacebookF} from '@fortawesome/free-brands-svg-icons'
 import {faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
 import {faTelegramPlane} from '@fortawesome/free-brands-svg-icons'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
+import { Icon } from '@iconify/react';
 
 export function Footer() {
     const currentYear = (new Date()).getFullYear()
@@ -15,11 +16,12 @@ export function Footer() {
                 <div className={style.socialIcons}>
                     <a><FontAwesomeIcon icon={faLinkedinIn} size="2x"/></a>
                     <a><FontAwesomeIcon icon={faGithub} size="2x"/></a>
+                    <a><Icon icon="simple-icons:codewars" height='25' vAlign={true}/></a>
                     <a><FontAwesomeIcon icon={faTelegramPlane} size="2x"/></a>
                     <a><FontAwesomeIcon icon={faFacebookF} size="2x"/></a>
+
                 </div>
                 <span className={style.copyright}>© {currentYear} All rights reserved</span>
-
             </div>
         </div>
     );
