@@ -72,6 +72,13 @@
             background-color: $primaryColor;
             cursor: pointer;
 
+            svg {
+              margin: 0 5px -5px 0;
+            }
+            path {
+              fill: white;
+            }
+
             &:hover {
               box-shadow: 0 0 30px rgb(0 0 0 / 20%);
             }

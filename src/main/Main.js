@@ -3,6 +3,8 @@ import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.css';
 import {Title} from '../common/components/title/Title';
 import myPhoto from '../assets/images/my_photo.jpg';
+import {Icon} from '@iconify/react';
+
 
 export function Main() {
     return (
@@ -23,7 +25,8 @@ export function Main() {
                                 vel voluptas voluptate voluptates voluptatibus voluptatum?</p>
                         </div>
                         <div className={style.downloadBtnWrapper}>
-                            <a className={style.downloadBtn}>Download resume</a>
+                            <a className={style.downloadBtn}><Icon icon="ant-design:download-outlined" height="25"
+                                                                   vAlign={true} />Download resume</a>
                         </div>
                     </div>
                 </div>

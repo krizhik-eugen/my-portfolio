@@ -19,7 +19,6 @@ export function Footer() {
                     <a><Icon icon="simple-icons:codewars" height='25' vAlign={true}/></a>
                     <a><FontAwesomeIcon icon={faTelegramPlane} size="2x"/></a>
                     <a><FontAwesomeIcon icon={faFacebookF} size="2x"/></a>
-
                 </div>
                 <span className={style.copyright}>© {currentYear} All rights reserved</span>
             </div>
